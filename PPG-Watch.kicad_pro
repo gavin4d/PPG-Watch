@@ -450,7 +450,8 @@
       "Library"
     ],
     "pinned_symbol_libs": [
-      "000_library"
+      "000_library",
+      "library"
     ]
   },
   "meta": {
