@@ -451,7 +451,8 @@
     ],
     "pinned_symbol_libs": [
       "000_library",
-      "library"
+      "library",
+      "Library"
     ]
   },
   "meta": {
