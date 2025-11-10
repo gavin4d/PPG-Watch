@@ -2276,7 +2276,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TXU0101DRYR"
+	(symbol "TXU0102DRYR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2289,7 +2289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXU0101"
+		(property "Value" "TXU0102"
 			(at 7.112 3.81 0)
 			(effects
 				(font
@@ -2298,7 +2298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_USON-6_1x1.45mm_P0.5mm_SMD"
+		(property "Footprint" "Library:X1SON-8_1.05x2mm_P0.5mm"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2343,10 +2343,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TXU0101DRYR_0_1"
+		(symbol "TXU0102DRYR_0_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -6.35 8.89)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2380,7 +2380,7 @@
 				)
 			)
 		)
-		(symbol "TXU0101DRYR_1_1"
+		(symbol "TXU0102DRYR_1_1"
 			(polyline
 				(pts
 					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 1.016 0) (xy -0.762 -0.762)
@@ -2394,16 +2394,16 @@
 				)
 			)
 			(pin input line
-				(at -8.89 0 0)
+				(at -8.89 1.27 0)
 				(length 2.54)
-				(name "A"
+				(name "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2412,9 +2412,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -3.81 0)
+				(at -8.89 -1.27 0)
 				(length 2.54)
-				(name "OE"
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2429,17 +2429,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 8.89 270)
+			(pin input line
+				(at -8.89 -5.08 0)
 				(length 2.54)
-				(name "VCCA"
+				(name "OE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2448,7 +2448,25 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at -2.54 11.43 270)
+				(length 2.54)
+				(name "VCCA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2466,7 +2484,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 8.89 270)
+				(at 2.54 11.43 270)
 				(length 2.54)
 				(name "VCCB"
 					(effects
@@ -2475,7 +2493,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2484,16 +2502,34 @@
 				)
 			)
 			(pin output line
-				(at 8.89 0 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
-				(name "BY"
+				(name "B2Y"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "B1Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

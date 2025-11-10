@@ -1,4 +1,8 @@
-/PPG-Watch-backups/
+/PCB/PPG-Watch-backups
+/PCB/fab
+/PCB_Laser_cut/PPG-Watch-backups
+/PCB_Laser_cut/fab
 \#auto_saved_files\#
 Library.bak
 ~PPG-Watch.kicad_sch.lck
+/firmware/.direnv

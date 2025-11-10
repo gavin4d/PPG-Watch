@@ -1,0 +1,3 @@
+[submodule "firmware/nrf-nix"]
+	path = firmware/nrf-nix
+	url = https://github.com/MatthewCroughan/nrf-nix
